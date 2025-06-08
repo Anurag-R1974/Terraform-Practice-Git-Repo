@@ -12,6 +12,6 @@ resource "aws_subnet" "Dsub2" {
   vpc_id = aws_vpc.Dev1.id
 }
 resource "aws_subnet" "Dsub4" {
-    cidr_block = "10.0.3.0/24"
+    cidr_block = "10.0.2.0/24"
   vpc_id = aws_vpc.Dev1.id
 }
