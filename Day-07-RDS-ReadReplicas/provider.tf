@@ -1,0 +1,10 @@
+provider "aws" {
+  
+alias = "primary"
+region = "us-east-1"
+}
+
+provider "aws" {
+  alias = "replica"
+  region = "us-east-1"
+}
